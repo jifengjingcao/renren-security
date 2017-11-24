@@ -18,8 +18,8 @@ public class RedisTest {
     public void test(){
         //测试redis，需要设置renren.redis.open=true
         redisUtils.set("domain", "renren.io");
+        redisUtils.set("me","吴志枫");
         String domain = redisUtils.get("domain");
-
         System.out.println(domain);
     }
 }
