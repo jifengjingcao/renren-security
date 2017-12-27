@@ -1,5 +1,5 @@
 
-package cxfClient;
+package xunjia;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -9,52 +9,52 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>anonymous complex type�� Java �ࡣ
+ * <p>Java class for anonymous complex type.
  * 
- * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
- * &lt;complexType&gt;
- *   &lt;complexContent&gt;
- *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
- *       &lt;sequence&gt;
- *         &lt;element name="HEADER"&gt;
- *           &lt;complexType&gt;
- *             &lt;complexContent&gt;
- *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
- *                 &lt;sequence&gt;
- *                   &lt;element name="BUSINESS_GROUP" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
- *                   &lt;element name="SYSTEM_CODE" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
- *                   &lt;element name="REQUEST_ID" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
- *                   &lt;element name="IF_CATE_CODE" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
- *                   &lt;element name="IF_CODE" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
- *                   &lt;element name="USER_NAME" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
- *                   &lt;element name="PASSWORD" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
- *                   &lt;element name="BATCH_NUM" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
- *                   &lt;element name="SEG_NUM" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
- *                   &lt;element name="TOTAL_SEG_COUNT" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
- *                 &lt;/sequence&gt;
- *               &lt;/restriction&gt;
- *             &lt;/complexContent&gt;
- *           &lt;/complexType&gt;
- *         &lt;/element&gt;
- *         &lt;element name="PARAMETER"&gt;
- *           &lt;complexType&gt;
- *             &lt;complexContent&gt;
- *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
- *                 &lt;sequence&gt;
- *                   &lt;element name="RFX_NUMBER" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
- *                   &lt;element name="CREA_DATE_FROM" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
- *                   &lt;element name="CREA_DATE_TO" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
- *                 &lt;/sequence&gt;
- *               &lt;/restriction&gt;
- *             &lt;/complexContent&gt;
- *           &lt;/complexType&gt;
- *         &lt;/element&gt;
- *       &lt;/sequence&gt;
- *     &lt;/restriction&gt;
- *   &lt;/complexContent&gt;
- * &lt;/complexType&gt;
+ * &lt;complexType>
+ *   &lt;complexContent>
+ *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ *       &lt;sequence>
+ *         &lt;element name="HEADER">
+ *           &lt;complexType>
+ *             &lt;complexContent>
+ *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ *                 &lt;sequence>
+ *                   &lt;element name="BUSINESS_GROUP" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                   &lt;element name="SYSTEM_CODE" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                   &lt;element name="REQUEST_ID" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                   &lt;element name="IF_CATE_CODE" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                   &lt;element name="IF_CODE" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                   &lt;element name="USER_NAME" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                   &lt;element name="PASSWORD" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                   &lt;element name="BATCH_NUM" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                   &lt;element name="SEG_NUM" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                   &lt;element name="TOTAL_SEG_COUNT" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                 &lt;/sequence>
+ *               &lt;/restriction>
+ *             &lt;/complexContent>
+ *           &lt;/complexType>
+ *         &lt;/element>
+ *         &lt;element name="PARAMETER">
+ *           &lt;complexType>
+ *             &lt;complexContent>
+ *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ *                 &lt;sequence>
+ *                   &lt;element name="RFX_NUMBER" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                   &lt;element name="CREA_DATE_FROM" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                   &lt;element name="CREA_DATE_TO" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ *                 &lt;/sequence>
+ *               &lt;/restriction>
+ *             &lt;/complexContent>
+ *           &lt;/complexType>
+ *         &lt;/element>
+ *       &lt;/sequence>
+ *     &lt;/restriction>
+ *   &lt;/complexContent>
+ * &lt;/complexType>
  * </pre>
  * 
  * 
@@ -73,7 +73,7 @@ public class REQUEST {
     protected PARAMETER parameter;
 
     /**
-     * ��ȡheader���Ե�ֵ��
+     * Gets the value of the header property.
      * 
      * @return
      *     possible object is
@@ -85,7 +85,7 @@ public class REQUEST {
     }
 
     /**
-     * ����header���Ե�ֵ��
+     * Sets the value of the header property.
      * 
      * @param value
      *     allowed object is
@@ -97,7 +97,7 @@ public class REQUEST {
     }
 
     /**
-     * ��ȡparameter���Ե�ֵ��
+     * Gets the value of the parameter property.
      * 
      * @return
      *     possible object is
@@ -109,7 +109,7 @@ public class REQUEST {
     }
 
     /**
-     * ����parameter���Ե�ֵ��
+     * Sets the value of the parameter property.
      * 
      * @param value
      *     allowed object is
@@ -122,29 +122,29 @@ public class REQUEST {
 
 
     /**
-     * <p>anonymous complex type�� Java �ࡣ
+     * <p>Java class for anonymous complex type.
      * 
-     * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
+     * <p>The following schema fragment specifies the expected content contained within this class.
      * 
      * <pre>
-     * &lt;complexType&gt;
-     *   &lt;complexContent&gt;
-     *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
-     *       &lt;sequence&gt;
-     *         &lt;element name="BUSINESS_GROUP" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
-     *         &lt;element name="SYSTEM_CODE" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
-     *         &lt;element name="REQUEST_ID" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
-     *         &lt;element name="IF_CATE_CODE" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
-     *         &lt;element name="IF_CODE" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
-     *         &lt;element name="USER_NAME" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
-     *         &lt;element name="PASSWORD" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
-     *         &lt;element name="BATCH_NUM" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
-     *         &lt;element name="SEG_NUM" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
-     *         &lt;element name="TOTAL_SEG_COUNT" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
-     *       &lt;/sequence&gt;
-     *     &lt;/restriction&gt;
-     *   &lt;/complexContent&gt;
-     * &lt;/complexType&gt;
+     * &lt;complexType>
+     *   &lt;complexContent>
+     *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+     *       &lt;sequence>
+     *         &lt;element name="BUSINESS_GROUP" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *         &lt;element name="SYSTEM_CODE" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *         &lt;element name="REQUEST_ID" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *         &lt;element name="IF_CATE_CODE" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *         &lt;element name="IF_CODE" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *         &lt;element name="USER_NAME" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *         &lt;element name="PASSWORD" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *         &lt;element name="BATCH_NUM" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *         &lt;element name="SEG_NUM" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *         &lt;element name="TOTAL_SEG_COUNT" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *       &lt;/sequence>
+     *     &lt;/restriction>
+     *   &lt;/complexContent>
+     * &lt;/complexType>
      * </pre>
      * 
      * 
@@ -186,7 +186,7 @@ public class REQUEST {
         protected String totalsegcount;
 
         /**
-         * ��ȡbusinessgroup���Ե�ֵ��
+         * Gets the value of the businessgroup property.
          * 
          * @return
          *     possible object is
@@ -198,7 +198,7 @@ public class REQUEST {
         }
 
         /**
-         * ����businessgroup���Ե�ֵ��
+         * Sets the value of the businessgroup property.
          * 
          * @param value
          *     allowed object is
@@ -210,7 +210,7 @@ public class REQUEST {
         }
 
         /**
-         * ��ȡsystemcode���Ե�ֵ��
+         * Gets the value of the systemcode property.
          * 
          * @return
          *     possible object is
@@ -222,7 +222,7 @@ public class REQUEST {
         }
 
         /**
-         * ����systemcode���Ե�ֵ��
+         * Sets the value of the systemcode property.
          * 
          * @param value
          *     allowed object is
@@ -234,7 +234,7 @@ public class REQUEST {
         }
 
         /**
-         * ��ȡrequestid���Ե�ֵ��
+         * Gets the value of the requestid property.
          * 
          * @return
          *     possible object is
@@ -246,7 +246,7 @@ public class REQUEST {
         }
 
         /**
-         * ����requestid���Ե�ֵ��
+         * Sets the value of the requestid property.
          * 
          * @param value
          *     allowed object is
@@ -258,7 +258,7 @@ public class REQUEST {
         }
 
         /**
-         * ��ȡifcatecode���Ե�ֵ��
+         * Gets the value of the ifcatecode property.
          * 
          * @return
          *     possible object is
@@ -270,7 +270,7 @@ public class REQUEST {
         }
 
         /**
-         * ����ifcatecode���Ե�ֵ��
+         * Sets the value of the ifcatecode property.
          * 
          * @param value
          *     allowed object is
@@ -282,7 +282,7 @@ public class REQUEST {
         }
 
         /**
-         * ��ȡifcode���Ե�ֵ��
+         * Gets the value of the ifcode property.
          * 
          * @return
          *     possible object is
@@ -294,7 +294,7 @@ public class REQUEST {
         }
 
         /**
-         * ����ifcode���Ե�ֵ��
+         * Sets the value of the ifcode property.
          * 
          * @param value
          *     allowed object is
@@ -306,7 +306,7 @@ public class REQUEST {
         }
 
         /**
-         * ��ȡusername���Ե�ֵ��
+         * Gets the value of the username property.
          * 
          * @return
          *     possible object is
@@ -318,7 +318,7 @@ public class REQUEST {
         }
 
         /**
-         * ����username���Ե�ֵ��
+         * Sets the value of the username property.
          * 
          * @param value
          *     allowed object is
@@ -330,7 +330,7 @@ public class REQUEST {
         }
 
         /**
-         * ��ȡpassword���Ե�ֵ��
+         * Gets the value of the password property.
          * 
          * @return
          *     possible object is
@@ -342,7 +342,7 @@ public class REQUEST {
         }
 
         /**
-         * ����password���Ե�ֵ��
+         * Sets the value of the password property.
          * 
          * @param value
          *     allowed object is
@@ -354,7 +354,7 @@ public class REQUEST {
         }
 
         /**
-         * ��ȡbatchnum���Ե�ֵ��
+         * Gets the value of the batchnum property.
          * 
          * @return
          *     possible object is
@@ -366,7 +366,7 @@ public class REQUEST {
         }
 
         /**
-         * ����batchnum���Ե�ֵ��
+         * Sets the value of the batchnum property.
          * 
          * @param value
          *     allowed object is
@@ -378,7 +378,7 @@ public class REQUEST {
         }
 
         /**
-         * ��ȡsegnum���Ե�ֵ��
+         * Gets the value of the segnum property.
          * 
          * @return
          *     possible object is
@@ -390,7 +390,7 @@ public class REQUEST {
         }
 
         /**
-         * ����segnum���Ե�ֵ��
+         * Sets the value of the segnum property.
          * 
          * @param value
          *     allowed object is
@@ -402,7 +402,7 @@ public class REQUEST {
         }
 
         /**
-         * ��ȡtotalsegcount���Ե�ֵ��
+         * Gets the value of the totalsegcount property.
          * 
          * @return
          *     possible object is
@@ -414,7 +414,7 @@ public class REQUEST {
         }
 
         /**
-         * ����totalsegcount���Ե�ֵ��
+         * Sets the value of the totalsegcount property.
          * 
          * @param value
          *     allowed object is
@@ -429,22 +429,22 @@ public class REQUEST {
 
 
     /**
-     * <p>anonymous complex type�� Java �ࡣ
+     * <p>Java class for anonymous complex type.
      * 
-     * <p>����ģʽƬ��ָ�������ڴ����е�Ԥ�����ݡ�
+     * <p>The following schema fragment specifies the expected content contained within this class.
      * 
      * <pre>
-     * &lt;complexType&gt;
-     *   &lt;complexContent&gt;
-     *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType"&gt;
-     *       &lt;sequence&gt;
-     *         &lt;element name="RFX_NUMBER" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
-     *         &lt;element name="CREA_DATE_FROM" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
-     *         &lt;element name="CREA_DATE_TO" type="{http://www.w3.org/2001/XMLSchema}string"/&gt;
-     *       &lt;/sequence&gt;
-     *     &lt;/restriction&gt;
-     *   &lt;/complexContent&gt;
-     * &lt;/complexType&gt;
+     * &lt;complexType>
+     *   &lt;complexContent>
+     *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+     *       &lt;sequence>
+     *         &lt;element name="RFX_NUMBER" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *         &lt;element name="CREA_DATE_FROM" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *         &lt;element name="CREA_DATE_TO" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     *       &lt;/sequence>
+     *     &lt;/restriction>
+     *   &lt;/complexContent>
+     * &lt;/complexType>
      * </pre>
      * 
      * 
@@ -465,7 +465,7 @@ public class REQUEST {
         protected String creadateto;
 
         /**
-         * ��ȡrfxnumber���Ե�ֵ��
+         * Gets the value of the rfxnumber property.
          * 
          * @return
          *     possible object is
@@ -477,7 +477,7 @@ public class REQUEST {
         }
 
         /**
-         * ����rfxnumber���Ե�ֵ��
+         * Sets the value of the rfxnumber property.
          * 
          * @param value
          *     allowed object is
@@ -489,7 +489,7 @@ public class REQUEST {
         }
 
         /**
-         * ��ȡcreadatefrom���Ե�ֵ��
+         * Gets the value of the creadatefrom property.
          * 
          * @return
          *     possible object is
@@ -501,7 +501,7 @@ public class REQUEST {
         }
 
         /**
-         * ����creadatefrom���Ե�ֵ��
+         * Sets the value of the creadatefrom property.
          * 
          * @param value
          *     allowed object is
@@ -513,7 +513,7 @@ public class REQUEST {
         }
 
         /**
-         * ��ȡcreadateto���Ե�ֵ��
+         * Gets the value of the creadateto property.
          * 
          * @return
          *     possible object is
@@ -525,7 +525,7 @@ public class REQUEST {
         }
 
         /**
-         * ����creadateto���Ե�ֵ��
+         * Sets the value of the creadateto property.
          * 
          * @param value
          *     allowed object is

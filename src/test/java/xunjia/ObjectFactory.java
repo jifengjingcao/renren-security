@@ -1,5 +1,5 @@
 
-package cxfClient;
+package xunjia;
 
 import javax.xml.bind.annotation.XmlRegistry;
 
@@ -30,19 +30,19 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link REQUEST }
-     * 
-     */
-    public REQUEST createREQUEST() {
-        return new REQUEST();
-    }
-
-    /**
      * Create an instance of {@link RESPONSE }
      * 
      */
     public RESPONSE createRESPONSE() {
         return new RESPONSE();
+    }
+
+    /**
+     * Create an instance of {@link REQUEST }
+     * 
+     */
+    public REQUEST createREQUEST() {
+        return new REQUEST();
     }
 
     /**
@@ -118,6 +118,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link RESPONSE.RESPONSEHEADER }
+     * 
+     */
+    public RESPONSE.RESPONSEHEADER createRESPONSERESPONSEHEADER() {
+        return new RESPONSE.RESPONSEHEADER();
+    }
+
+    /**
      * Create an instance of {@link REQUEST.HEADER }
      * 
      */
@@ -131,14 +139,6 @@ public class ObjectFactory {
      */
     public REQUEST.PARAMETER createREQUESTPARAMETER() {
         return new REQUEST.PARAMETER();
-    }
-
-    /**
-     * Create an instance of {@link RESPONSE.RESPONSEHEADER }
-     * 
-     */
-    public RESPONSE.RESPONSEHEADER createRESPONSERESPONSEHEADER() {
-        return new RESPONSE.RESPONSEHEADER();
     }
 
     /**
